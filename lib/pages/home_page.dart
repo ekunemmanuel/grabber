@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:grabber/constant/app_assets.dart';
-import 'package:grabber/widget/animated_button.dart';
-
 import '../constant/app_color.dart';
 import '../constant/app_data.dart';
 import '../widget/banners.dart';
