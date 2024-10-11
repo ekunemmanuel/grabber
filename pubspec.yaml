@@ -1,0 +1,44 @@
+name: grabber
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_splash_screen: ^1.3.0
+  page_transition: ^2.1.0
+  flutter_svg: ^2.0.10+1
+  simple_shadow: ^0.3.1
+  flutter_animate: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: BalooDa2
+      fonts:
+        - asset: assets/fonts/BalooDa2-VariableFont_wght.ttf
+          weight: 400 # This is used for the variable font
+    - family: BalooDa2Static
+      fonts:
+        - asset: assets/fonts/BalooDa2-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/BalooDa2-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/BalooDa2-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/BalooDa2-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/BalooDa2-ExtraBold.ttf
+          weight: 800
+  assets:
+    - assets/imgs/
+    - assets/icons/
